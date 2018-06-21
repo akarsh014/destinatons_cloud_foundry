@@ -1,0 +1,23 @@
+ID: destinatons_cloud_foundry
+_schema-version: '2.1'
+description: contains 2 modules, nodejs application providing and API which is consumed via destinations on UI5 application.
+version: 0.0.1
+
+modules:
+ - name: destination_service_frontend
+   type: html5
+   path: destination_service_frontend
+   requires:
+    - name: destination_service
+   parameters:
+      disk-quota: 256M
+      memory: 256M
+   build-parameters:
+      builder: grunt
+
+ - name: destination_service_backend
+   type: nodejs
+   path: nodejs
+
+resources:
+ - name: destination_service
