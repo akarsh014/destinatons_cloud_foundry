@@ -1,0 +1,25 @@
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=CF, build]
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is /Users/i072887/Documents/work_space/mta/destinatons_cloud_foundry/destinatons_cloud_foundry.mtar
+[main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.RequiredSymbol$$impl2 for bean interface com.sap.di.ext.mta.dto.RequiredSymbol
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.Resource$$impl3 for bean interface com.sap.di.ext.mta.dto.Resource
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA destinatons_cloud_foundry
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.proc.ModuleBuildDependency$$impl4 for bean interface com.sap.di.ext.mta.proc.ModuleBuildDependency
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: created 3 verification tasks
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: started symbol resource[destination_service]
+[pool-1-thread-3] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: started symbol module[destination_service_backend]
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: started symbol module[destination_service_frontend]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: finished symbol resource[destination_service]
+[pool-1-thread-3] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_backend': command timeout is 300 seconds
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_frontend': command timeout is 300 seconds
+[pool-1-thread-3] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_backend': command output file is /Users/i072887/Documents/work_space/mta/destinatons_cloud_foundry/.mta/modulebuild1092579629193254620.txt
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_frontend': command output file is /Users/i072887/Documents/work_space/mta/destinatons_cloud_foundry/.mta/modulebuild6831098499330172627.txt
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_frontend': invoking command [npm, install, --production]
+[pool-1-thread-3] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'destination_service_backend': invoking command [npm, install, --production]
+[pool-1-thread-3] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: finished symbol module[destination_service_backend]
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA destinatons_cloud_foundry: finished symbol module[destination_service_frontend]
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentDescriptor$$impl5 for bean interface com.sap.di.ext.mta.dto.DeploymentDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentModule$$impl6 for bean interface com.sap.di.ext.mta.dto.DeploymentModule

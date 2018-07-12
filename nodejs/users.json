@@ -1,20 +1,20 @@
 [
 	{
-		"name": "SpongeBob",
-		"color": "yellow",
+		"first name": "akarsh",
+		"last name ": "sidhartha",
 		"material": "sponge",
 		"id": 0
 	},
 	{
-		"name": "Shaun",
-		"color": "white",
-		"material": "wool",
-		"id": 1
+		"first name": "manju",
+		"last name ": "baburo",
+		"material": "sponge",
+		"id": 0
 	},
 	{
-		"name": "Kermitt",
-		"color": "green",
-		"material": "polyester",
-		"id": 2
+		"first name": "hari",
+		"last name ": "mahi",
+		"material": "sponge",
+		"id": 0
 	}
 ]

@@ -9,11 +9,6 @@ modules:
    path: destination_service_frontend
    requires:
     - name: destination_service
-   parameters:
-      disk-quota: 256M
-      memory: 256M
-   build-parameters:
-      builder: grunt
 
  - name: destination_service_backend
    type: nodejs
